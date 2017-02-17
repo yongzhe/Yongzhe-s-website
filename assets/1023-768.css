@@ -1,0 +1,98 @@
+/* use this file for tablet portrait;
+*/
+
+
+h1 {
+	font-size: 2em;
+}
+
+/*
+ * text over images
+ */
+#flavorText {
+	line-height: 4em;
+}
+
+#flavorText p {
+	font-size: 3em;
+	text-shadow: white 0.02em 0.02em;
+}
+
+/*
+* crafted in vancouver
+*/
+
+#vancouverText {
+	top: 8vw;
+}
+
+#vancouver p {
+	font-size: 1.5em;
+}
+
+
+/*
+* blog
+*/
+
+#entries {
+	/*border: 5px solid lightcoral;*/
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+#help {
+	/*border: 5px solid #FF00FF;*/
+	background-color: #F0F0F0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+	height: 100%;
+	width:100%;
+}
+
+#help article {
+	margin: 1vw;
+	width: 100%;
+}
+
+.entryblock {
+    margin-top: 2px;
+}
+
+
+
+#firstRowImages > li {
+	margin: 30px;
+}
+
+.firstPortfolioBox {
+	position: relative;
+	top: -20px;
+	margin: auto;
+}
+
+.firstTakeLook {
+	position: relative;
+	top: -52px;
+	margin: auto;
+	left: 160px;
+	padding: 5px;
+}
+
+#contactMe {
+	display: flex; 
+	flex-direction: column;
+	text-align: center;
+}
+
+.thanksSubHeader {
+	font-size:3vw;
+}
+
+#contactCenter {
+	font-size: 2vw;
+	margin: auto;
+	text-align: center;
+}
